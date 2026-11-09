@@ -1,6 +1,6 @@
 /* RoomSense – front end for the FastAPI /predict endpoint */
 
-
+const API_BASE_URL = "https://nyc-airbnb-room-type-predictor-k5va.onrender.com"
 // Order matches model.classes_ in your pipeline
 const CLASSES = ["Entire home/apt", "Private room", "Shared room"];
 
